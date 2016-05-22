@@ -111,7 +111,7 @@ after_test:
   - cmd: deactivate
   - cmd: path
   - cmd: where python
-  - cmd: conda config --get channels'
+  - cmd: conda config --get channels
   - cmd: conda build .\ci\conda_recipe'
 
   # Move the conda package into the dist directory, to register it
